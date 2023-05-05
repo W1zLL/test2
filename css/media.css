@@ -1,0 +1,148 @@
+/* Tablet */
+@media (max-width: 1000px) {
+
+   .header__title{
+      font-size: 50px;
+      margin-bottom: 28px;
+   }
+
+   .header__text{
+      font-size: 24px;
+      margin-bottom: 52px;
+   }
+
+   .nav__list{
+      column-gap: 60px;
+   }
+
+   .slider{
+      width: 1200px;
+   }
+
+   .slide__img{
+      width: 336px;
+      height: 396px;
+   }
+
+   .slide__title{
+      font-size: 80px;
+      bottom: 32px;
+      background: linear-gradient(90deg, #114455 50px, #eee 50px);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+
+   .slide{
+      padding-left: 50px;
+   }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+   .nav__logo{
+      max-width: 109px;
+      margin-left: 9px;
+   }
+
+   .nav__list{
+      display: none;
+   }
+
+   .nav__btn{
+      display: block;
+      margin-right: 1px;
+   }
+
+   .header__content{
+      display: none;
+   }
+
+   .header__content-mobile{
+      display: block;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 27px;
+   }
+
+   .header__logo-mobile{
+      width: 244px;
+   }
+
+   .header__content-mobile-text{
+      max-width: 237px;
+      text-align: center;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      letter-spacing: 0.06em;
+      line-height: 1.5;
+      font-size: 16px;
+   }
+
+   .header__arrows{
+      width: 19px;
+      height: 16px;
+      bottom: 32px;
+   }
+
+   .case-studies{
+      padding: 80px 0 40px 0;
+   }
+
+   .case-studies__title{
+      margin-bottom: 7px;
+   }
+
+   .title{
+      font-size: 32px;
+   }
+
+   .case-studies__text{
+      margin-bottom: 31px;
+      font-size: 16px;
+   }
+
+   .slider{
+      width: 546px;
+   }
+
+   .slide{
+      padding-left: 33px;
+   }
+
+   .slide__title{
+      font-size: 60px;
+      bottom: 22px;
+      background: linear-gradient(90deg, #114455 33px, #eee 33px);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+
+   .slide__img{
+      width: 224px;
+      height: 264px;
+   }
+
+   .about{
+      padding-top: 40px;
+      padding-bottom: 80px;
+   }
+
+   .about__title{
+      margin-bottom: 7px;
+   }
+
+   .about__text{
+      margin-bottom: 40px;
+   }
+
+   .video__btn{
+      width: 48px;
+      height: 48px;
+      
+   }
+
+   .video__picture, .video__picture img{
+      width: 100%;
+   }
+}
